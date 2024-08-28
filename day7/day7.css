@@ -1,0 +1,32 @@
+p::first-letter{
+    background-color:brown;
+    color: black;
+    font-size: 50px;
+}
+p::first-line{
+    background-color: blanchedalmond;
+    color: blue;
+    font-size: 20px ;
+}
+p::before{
+    content: depuuuuuuuuuuuuuuuu;
+}
+p::after{
+    content: depuuuuuuuuuuuuuuuu;
+}
+p[id="male"]{
+    background-color: aqua;
+    color: black;
+    font-size: 50px;
+}
+img[id="female"]{
+    background-color:blue;
+    color:cadetblue;
+    font-size: 20px;
+}
+img[alt="pic"]{
+    background-color: chartreuse;
+    padding: 15px;
+    border-radius:50% ;
+    width: 70px;
+}

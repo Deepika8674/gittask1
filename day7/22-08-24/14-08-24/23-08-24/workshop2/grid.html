@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <head>
+    <style>
+         body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            display: flex;
+            background-color: #f1c40f;
+            padding: 20px;
+            justify-content: space-between;
+        }
+        header img {
+            height: 200px;
+        }
+        header .pricing {
+            text-align: right;
+            font-size: 20px;
+        }
+        nav {
+            background-color: #f1c40f;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            padding: 10px 20px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #f39c12;
+            color: white;
+        }
+        .featured {
+            text-align: center;
+            padding: 50px;
+        }
+        .featured img {
+            max-width: 400px;
+        }
+        .menu {
+            display: flex;
+            justify-content: center;
+            margin: 20px 0;
+        }
+        .menu div {
+            text-align: center;
+            width: 20%;
+            padding: 20px;
+        }
+        .menu div img {
+            width: 50px;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            background-color: #f1c40f;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div>
+            <h1>Terry's Taco Joint</h1>
+            <p>Pretty Good Tacos!</p>
+        </div>
+        <div class="pricing">
+            <p>$1.99 <br> Tacos</p>
+            <p>$3.99 <br> Kombucha</p>
+        </div>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <a href="#">TACOS</a>
+        <a href="#">BEERS</a>
+        <a href="#">WINES</a>
+        <a href="#">DESSERTS</a>
+        <a href="#">RESERVATIONS</a>
+    </nav>
+
+    <!-- Main Container -->
+    <div class="container">
+        <!-- Menu Section -->
+        <div class="menu">
+            <div>
+                <img src="../../../../../taco.jpg" alt="Tacos">
+                <h3>Tacos</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div>
+                <img src="../../../../../beer.jpg" alt="Beer">
+                <h3>Beer</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div>
+                <img src="../../../../../wine.jpg" alt="Wine">
+                <h3>Wine</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+            <div>
+                <img src="../../../../../music.jpg" alt="Music">
+                <h3>Music</h3>
+                <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+        </div>
+
+        <!-- Featured Taco Section -->
+        <div class="featured">
+            <img src="../../../../../taco.jpg" alt="Featured Taco">
+            <h2>Featured Taco</h2>
+            <p>Slim profile, easy to hold and loaded with cheese.<br>This is the one you have been waiting for!</p>
+            <button>Learn More</button>
+        </div>
+
+        <!-- Photo Gallery Section -->
+        <div class="gallery">
+            <h2>Photo Gallery</h2>
+            <div class="gallery-container">
+                <img src="../../../../sam.jpg" alt="Gallery Image 1">
+                <img src="../../../../sam.jpg" alt="Gallery Image 2">
+                <img src="../../../../sam.jpg" alt="Gallery Image 3">
+                <img src="../../../../sam.jpg" alt="Gallery Image 4">
+                <img src="../../../../sam.jpg" alt="Gallery Image 5">
+                <img src="../../../../sam.jpg" alt="Gallery Image 6">
+                <img src="../../../../sam.jpg" alt="Gallery Image 7">
+                <img src="../../../../sam.jpg" alt="Gallery Image 8">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
